@@ -1,8 +1,7 @@
-@startuml component
-actor client
-node app
-database db
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
 
-db -> app
-app -> client
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
 @enduml
