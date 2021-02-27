@@ -1,12 +1,9 @@
-@startuml
-ditaa
-+--------+   +-------+    +-------+
-|        +---+ ditaa +--> |       |
-|  Text  |   +-------+    |Diagram|
-|Dokument|   |!Magie!|    |       |
-|     {d}|   |       |    |       |
-+---+----+   +-------+    +-------+
-    :                         ^
-    |    Ein Haufen Arbeit    |
-    +-------------------------+
-@enduml
+@startditaa -E
++---------+  /--------\   +-------+
+| cBLU    +--+cAAA    +---+Version|
+|         |  |  Data  |   |   V3  |
+|    +----+  |  Base  |   |cRED{d}|
+|    |cPNK|  |     {s}|   +-------+
+|    |    |  \---+----/
++----+----+    
+@endditaa
