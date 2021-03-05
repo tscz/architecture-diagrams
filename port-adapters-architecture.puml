@@ -1,4 +1,4 @@
-@startuml Ports and Adapters Architecture
+@startuml
 ditaa(-S,-E) 
                              Spring Boot Container + Configuration
                                 +-------------------------------------------------------------------------------------------------+
